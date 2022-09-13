@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "text": "# Welcome to murder mystery\nIn a horrible castle (not too far away from your home) there lived a horrible Duke with his horrible wife and their horrible servants. One morning the Duke was dead–murdered by one of the other horrible people living in the castle.\n\n\nIf you do not **solve this murder mystery** in time there will be **another corpse** - it might be even possible that it is **yours**. \nMake sure to solve the riddle and support the police! ",
+      "type": "text",
+      "id": "Field_1ikdmir"
+    },
+    {
+      "values": [
+        {
+          "label": "Investigate the case",
+          "value": "investigate"
+        },
+        {
+          "value": "leave",
+          "label": "Try to run away "
+        }
+      ],
+      "label": "What do you want to do next",
+      "type": "radio",
+      "id": "Field_0lb7ydv",
+      "key": "action",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "schemaVersion": 4,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "7d3fb60"
+  },
+  "type": "default",
+  "id": "Form_9dd6fd6e-8302-4189-b9a1-c888ff62e331",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}

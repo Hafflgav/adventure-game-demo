@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "text": "# Police Protocol\nWhen the residents of the castle were interviewed by the police, every person gave two correct answers and told one lie. This is what they said:\n\nThe Duchess\n* I didn’t kill the Duke.\n* The gardener killed my husband.\n* I’m not guilty.\nThe Cook\n* It wasn’t me.\n* I have been working here for 27 years.\n* The butler knows who’s done it.\nThe Butler\n* I am not the murderer.\n* The chambermaid is my witness; we were playing cards in the kitchen last night.\n* The Duke was killed by the cook.\nThe Chambermaid\n* I didn’t do it.\n* I wasn’t even here last night.\n* The gardener did it.\nThe Gardener\n* The Duchess is lying when she says that I did it.\n* I am innocent.\n* The butler is the murderer.\n",
+      "type": "text",
+      "id": "Field_0jucs5a"
+    }
+  ],
+  "schemaVersion": 4,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "7d3fb60"
+  },
+  "type": "default",
+  "id": "Form_d509af1d-37fb-40a1-a082-151c4e3f2d9a",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}
