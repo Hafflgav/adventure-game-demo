@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "text": "# You hided very well\nTurns out you are lucky! You could not been discovered. You are able to leave the place where you have hidden. It is safe outside!",
+      "type": "text",
+      "id": "Field_04m8lhn"
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "87b3dba"
+  },
+  "type": "default",
+  "id": "Form_f01df798-6416-4e9f-99f8-6653e4703a7f",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}

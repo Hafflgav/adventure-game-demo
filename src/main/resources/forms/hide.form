@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "text": "# You decided to run away and hide\nThe murderer is looking for another victim. So make sure you hide well enough. Otherwise you might be catched. ",
+      "type": "text",
+      "id": "Field_0suwh2p"
+    },
+    {
+      "values": [
+        {
+          "label": "Barn",
+          "value": "barn"
+        },
+        {
+          "label": "Inside a carrel in the cellar ",
+          "value": "good"
+        }
+      ],
+      "label": "Radio",
+      "type": "radio",
+      "id": "Field_1kd547j",
+      "key": "hide"
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "87b3dba"
+  },
+  "type": "default",
+  "id": "Form_6abd6537-e069-49e4-9961-3aa76952c752",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}
