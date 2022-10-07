@@ -1,0 +1,40 @@
+{
+  "components": [
+    {
+      "text": "# Enter player information",
+      "type": "text",
+      "id": "Field_1o82wy6"
+    },
+    {
+      "label": "With how many people do you want to play?",
+      "type": "number",
+      "id": "Field_0zz0060",
+      "key": "playerCount",
+      "defaultValue": 1,
+      "validate": {
+        "required": true,
+        "min": 1
+      },
+      "properties": {}
+    },
+    {
+      "label": "Enter the names of the people playing",
+      "type": "textfield",
+      "id": "Field_1gagorl",
+      "key": "playerString",
+      "description": "(comma separated)",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "schemaVersion": 4,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "7d3fb60"
+  },
+  "type": "default",
+  "id": "Form_60b3218c-62c8-4347-b221-899103a131b0",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}

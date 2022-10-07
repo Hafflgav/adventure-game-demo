@@ -1,0 +1,66 @@
+{
+  "$schema": "https://unpkg.com/@camunda/zeebe-element-templates-json-schema/resources/schema.json",
+  "name": "Hey Due Date",
+  "id": "a41a12d5-17aa-4860-a349-b3a29371e390",
+  "description": "Hey Due Date for Camunda",
+  "appliesTo": [
+    "bpmn:ServiceTask",
+    "bpmn:StartEvent"
+  ],
+  "documentationRef": "https://docs.camunda.io/docs/components/modeler/desktop-modeler/element-templates/defining-templates/#icons",
+  "icon": {
+    "contents": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAVxJREFUOE9jZMAB/keU/ccmxbiiixGrOLogugE/1RTBSthv3UdRim4giukwQ55Oa8blULC4dFYtmEY2DG4QsYbAbEA3DGwQqYZgMwxuEMw7MbnFYHVLJvfi9R6yYSAvMmJzDS7DQOLoFsC9iMtb6IZhMwQl4EEG/VRVYHhTmIzhlaqOXoaFjz6AxXHFpEjvHAb2uw8ZwF77piTP8L4kBWuYMEVBxP8tm4NVXrBrNgPXg0cQg/DZCNO96B0bQ5zQLwzD4GH0zCP2v6SAJE6nI+v885+BgQUtg4AMev7hOQM8+q911DDw87ETFeUwRR8//WTQqmgBp3CwQTBXXe+oZeDjYyPKMJghINdI7VgMMQg5dRPjMpghyPkNxcfPPeP+S/BLMIAMAwF0r4IMAAGQd15+fMkgsX0hXD9G2QLzJsyl3xTlwEyu+4/gXoZ5BzkMsBZSsHDDFlig8MAmDgBzyquZaNMYXQAAAABJRU5ErkJggg=="
+  },
+  "properties": [
+    {
+      "label": "Type",
+      "type": "String",
+      "value": "io.camunda:hey-due-date:1",
+      "binding": {
+        "type": "zeebe:taskDefinition:type"
+      }
+    },
+    {
+      "label": "Calendar",
+      "type": "String",
+      "binding": {
+        "type": "zeebe:input",
+        "name": "calendar"
+      },
+      "constraints": {
+        "notEmpty": true
+      }
+    },
+    {
+      "label": "Start Date",
+      "type": "String",
+      "value": "=now()",
+      "binding": {
+        "type": "zeebe:input",
+        "name": "startDate"
+      },
+      "constraints": {
+        "notEmpty": true
+      }
+    },
+    {
+      "label": "SLA",
+      "type": "String",
+      "binding": {
+        "type": "zeebe:input",
+        "name": "sla"
+      },
+      "constraints": {
+        "notEmpty": true
+      }
+    },
+    {
+      "label": "Async before?",
+      "type": "Boolean",
+      "binding": {
+        "type": "property",
+        "name": "camunda:asyncBefore"
+      }
+    }
+  ]
+}

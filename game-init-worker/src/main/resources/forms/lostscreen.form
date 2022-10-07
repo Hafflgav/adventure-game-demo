@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "text": "# You have died\nYou took to long to catch the murder. You were found and brutally killed. Still - you do not know who it was... ",
+      "type": "text",
+      "id": "Field_183u7s4"
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "87b3dba"
+  },
+  "type": "default",
+  "id": "Form_9c702373-e914-4e54-a109-698745d2fea0",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}

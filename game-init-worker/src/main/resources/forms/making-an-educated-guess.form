@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "text": "# Who is the murderer\nMake an educated guess to determine the murder and make sure he gets locked up. \n\nTime is running",
+      "type": "text",
+      "id": "Field_03skwwu"
+    },
+    {
+      "values": [
+        {
+          "value": "duchess",
+          "label": "The Duchess"
+        },
+        {
+          "label": "The Gardener",
+          "value": "gardener"
+        },
+        {
+          "label": "The Cook",
+          "value": "cook"
+        },
+        {
+          "label": "The Chambermaid",
+          "value": "chambermaid"
+        },
+        {
+          "label": "The Butler",
+          "value": "buter"
+        }
+      ],
+      "label": "Pick the murderer",
+      "type": "radio",
+      "id": "Field_0j1csco",
+      "key": "guess"
+    },
+    {
+      "text": "### Good Luck! ",
+      "type": "text",
+      "id": "Field_0xta37e"
+    }
+  ],
+  "schemaVersion": 4,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "7d3fb60"
+  },
+  "type": "default",
+  "id": "Form_db3fa169-e385-4fa2-9605-2fae52822e82",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}
